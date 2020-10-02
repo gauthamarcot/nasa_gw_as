@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 MPC SkyCov report module
@@ -100,4 +100,4 @@ def generageCovReport(dir):
 
     return
 
-#generageCovReport("/home/david/Desktop/20180928/")
+#generageCovReport("/home/ arcot/Desktop/20180928/")

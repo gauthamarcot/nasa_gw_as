@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Image registration module.
@@ -85,5 +85,5 @@ def register_stacks(dir, subBack):
     print("\nDone registering image stacks, now search for asteroids.\n")
     return "\nDone registering stacks, now search for asteroids.\n"
 
-#dir = "/home/david/Desktop/C4-7"
+#dir = "/home/ arcot/Desktop/C4-7"
 #register_stacks(dir, True)

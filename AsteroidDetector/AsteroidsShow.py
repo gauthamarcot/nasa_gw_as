@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Module for displaying all extracted asteroids. Not tied to GUI. Run manually by uncommenting last line
@@ -19,7 +19,7 @@ def display_asteroids(dir):
     d.set("blink no")
     d.set("frame delete all")
 
-    # dir = "/home/david/Desktop/2.8.18/T3/"
+    # dir = "/home/ arcot/Desktop/2.8.18/T3/"
     keep = False
 
     with open (dir + '/asteroids', 'rb') as fp:
@@ -70,4 +70,4 @@ def display_asteroids(dir):
 
     d.set("blink yes")
 
-#display_asteroids("/home/david/Desktop/T4Sorted")
+#display_asteroids("/home/ arcot/Desktop/T4Sorted")

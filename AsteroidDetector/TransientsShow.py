@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Module for troubleshooting, displays extracted transients.
@@ -18,7 +18,7 @@ def display_transients(dir):
     d.set("blink no")
     d.set("frame delete all")
 
-    # dir = "/home/david/Desktop/2.8.18/T3/"
+    # dir = "/home/ arcot/Desktop/2.8.18/T3/"
     keep = False
 
     with open (dir + '/t1', 'rb') as fp:
@@ -77,4 +77,4 @@ def display_transients(dir):
 
     d.set("blink yes")
 
-#display_transients("/home/david/Desktop/T7Sorted")
+#display_transients("/home/ arcot/Desktop/T7Sorted")

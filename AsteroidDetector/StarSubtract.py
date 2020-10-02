@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Module built wiht numpy for extracting non moving objects from the images extracted from the .db files to

@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Module to extract the sources from the PP .db files, and subtract the stars using Numpy and
@@ -157,4 +157,4 @@ def parse_db(dir, limmag, star_search_radius, fwhm_min, ast_search_rad, star_lim
     return message
 
 #parse_db(dir, limmag, star_search_radius, fwhm_min, ast_search_rad, star_lim_mag):
-#parse_db("/home/david/Desktop/20180609/T12Sorted/", 20.5, 2, 1.5, 20, 21)
+#parse_db("/home/ arcot/Desktop/20180609/T12Sorted/", 20.5, 2, 1.5, 20, 21)
