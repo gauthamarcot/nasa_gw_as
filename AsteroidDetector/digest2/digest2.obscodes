@@ -746,7 +746,7 @@ Code  Long.   cos      sin    Name
 776 284.4669 0.73472 +0.67619 Foggy Bottom, Hamilton
 777 280.6017 0.72454 +0.68695 Toronto
 778 279.9778 0.76172 +0.64582 Allegheny Observatory, Pittsburgh
-779 280.5779 0.72219 +0.68943 David Dunlap Observatory, Richmond Hill
+779 280.5779 0.72219 +0.68943  arcot Dunlap Observatory, Richmond Hill
 780 281.4778 0.78868 +0.61280 Leander McCormick Observatory, Charlottesville
 781 281.5075 1.00045 -0.00405 Quito
 782 281.65   0.999   +0.000   Quito, comet astrograph station
@@ -890,7 +890,7 @@ Code  Long.   cos      sin    Name
 920 282.3353 0.73161 +0.67947 RIT Observatory, Rochester
 921 254.4725 0.83988 +0.54159 SW Institute for Space Research, Cloudcroft
 922 272.8333 0.82335 +0.56569 Timberland Observatory, Decatur
-923 284.6300 0.76655 +0.64006 The Bradstreet Observatory, St. Davids
+923 284.6300 0.76655 +0.64006 The Bradstreet Observatory, St.  arcots
 924 287.6769 0.68988 +0.72150 Observatoire du Cegep de Trois-Rivieres
 925 249.8589 0.85450 +0.51811 Palominas Observatory
 926 249.1209 0.85394 +0.51902 Tenagra II Observatory, Nogales
@@ -1431,7 +1431,7 @@ G90 248.9658 0.84301 +0.53639 Three Buttes Observatory, Tucson
 G91 249.1219 0.85208 +0.52234 Whipple Observatory, Mt. Hopkins--2MASS
 G92 249.2814 0.84920 +0.52660 Jarnac Observatory, Vail
 G93 249.3726 0.85215 +0.52201 Sonoita Research Observatory, Sonoita
-G94 249.9267 0.84971 +0.52594 Sonoran Skies Observatory, St. David
+G94 249.9267 0.84971 +0.52594 Sonoran Skies Observatory, St.  arcot
 G95 249.7622 0.85404 +0.51888 Hereford Arizona Observatory, Hereford
 G96 249.211280.845111+0.533614Mt. Lemmon Survey
 G97 250.8694 0.84965 +0.52600 Astronomical League Alpha Observatory, Portal

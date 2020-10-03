@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Module for troubleshooting extraction with PP
@@ -50,4 +50,4 @@ def display_stars(dir, img):
         d.set('regions','image; circle('+imgShow[t][4]+' '+imgShow[t][5]+' 8")# text={'+imgShow[t][2]+'V }' )
 
 
-#display_stars("/home/david/Desktop/C4", 3)
+#display_stars("/home/ arcot/Desktop/C4", 3)

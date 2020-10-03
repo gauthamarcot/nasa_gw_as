@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """Main GUI for application"""
 
@@ -214,7 +214,7 @@ class Application(Frame):
 
         ABOUT_TEXT = """About
         ASTEROID DETECTOR V1.0
-        Program 2018 David Rankin
+        Program 2018  arcot Rankin
         """
         toplevel = Toplevel()
         toplevel.resizable(width=FALSE, height=FALSE)
@@ -330,7 +330,7 @@ class Application(Frame):
 
     def launch_ds9(self):
         #TESTING
-        #self.working_dir = "/home/david/Desktop/20180930/T17Sorted"
+        #self.working_dir = "/home/ arcot/Desktop/20180930/T17Sorted"
 
         if self.forceOverwrite.get() == 1:
             self.forceOverwriteV = True

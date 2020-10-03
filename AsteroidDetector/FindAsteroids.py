@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Asteroid extraction from DB files.
@@ -282,4 +282,4 @@ def find_asteroids(dir, star_search_rad, fwhm_min, ast_search_rad, astmatch, req
     return astmatch
 
 #MODULE TESTING PURPOSES UNCOMMENT
-#find_asteroids("/home/david/Desktop/EXAMP/C10", 2.2, 1.7, 30, 0, True)
+#find_asteroids("/home/ arcot/Desktop/EXAMP/C10", 2.2, 1.7, 30, 0, True)

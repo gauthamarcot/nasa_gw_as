@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 
 """
@@ -334,4 +334,4 @@ def stack_images(dir, subsingle, forcesingle, fitsname):
     return "\nCompleted processing images \n"
 
 #MODULE TESTING PURPOSES UNCOMMENT
-#stack_images("/home/david/Desktop/20190102/C1", False, False, "Image_")
+#stack_images("/home/ arcot/Desktop/20190102/C1", False, False, "Image_")

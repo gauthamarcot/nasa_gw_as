@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+ 
 
 """
 Module for displaying the asteroids in DS9 via pyds9, conformation, and report building
@@ -531,4 +531,4 @@ def launch_ds9(dir, tree, overwrite):
 # tree1 = ttk.Treeview(myTree)
 # tree1.pack(fill="both")
 
-#launch_ds9("/home/david/Desktop/C4", tree1, False)
+#launch_ds9("/home/ arcot/Desktop/C4", tree1, False)
