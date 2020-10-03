@@ -1,0 +1,17 @@
+cd 1
+register Image_
+stack r_Image_ sum
+cd ..
+cd 2
+register Image_
+stack r_Image_ sum
+cd ..
+cd 3
+register Image_
+stack r_Image_ sum
+cd ..
+cd 4
+register Image_
+stack r_Image_ sum
+cd ..
+close

@@ -1,0 +1,37 @@
+### Asteroid Detector Settings ###
+Observatory Code: YOUR MPC CODE
+Name: nivedita
+Observer: m. nivedita
+Measurer: m. nivedita
+Telescope: .30-m F4 Reflector + CCD
+Email: admin@conceptivescom
+Initials(2): NM
+PP Path: /home/nivedita/photometrypipeline/
+Begin Exposure Key: DATE-OBS
+Exposure Time Key: EXPTIME
+
+### Defaults ###
+Default FWHM Minimum: 1.5
+Default Asteroid Search Radius: 30
+Default Star Search Radius: 3
+Default Limiting Mag: 20.5
+Max Resid: 0.45
+Slop Factor: 4
+Star Lim Mag: 21
+Default File Open Dir: /home/nivedita/Desktop
+
+### DS9 Settings ###
+DS9 Text Color: green
+Invert images?: no
+Image Keyword: Image
+Blink Inverval: 0.2
+DS9 Font Size: 15
+
+### EXTRACTION SETTINGS ### snr 6 minarea 4.5
+PP Register Command: pp_register -snr 6 -minarea 4.5
+
+# FINAL EXTRACTION COMMAND
+PP Photometry Command: pp_photometry -snr 1.8 -minarea 2.4 -aprad 4
+
+# FINAL EXTRACTION COMMAND
+PP Calibrate Command: pp_calibrate -maxflag 5

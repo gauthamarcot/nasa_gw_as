@@ -1,0 +1,12 @@
+Folder(Sequencename)
+   (1) - folder
+      -Image1
+      -Image2
+      -Image3
+      -Image4
+   (2)
+      -Image1
+      -Image2
+      ect...
+   (3)...
+   (4)...	
