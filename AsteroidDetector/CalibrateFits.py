@@ -1,9 +1,3 @@
- 
-
-"""
-Module for background subtraction on images before running them through the pipeline
-"""
-
 from astropy.io import fits
 from photutils import Background2D, MedianBackground
 
@@ -61,5 +55,5 @@ def calibrate_fits(type,darkImg,imagefile):
 
             hdul.flush()
 
-# copyfile('/home/ arcot/Desktop/T19Sorted/1/Image_Light_002.fits','/home/ arcot/Desktop/20180902/T19Sorted/1/Image_Light_002.fits')
-# calibrate_fits("single",'null','/home/ arcot/Desktop/20180902/T19Sorted/1/Image_Light_002.fits')
+# copyfile('/home/david/Desktop/T19Sorted/1/Image_Light_002.fits','/home/david/Desktop/20180902/T19Sorted/1/Image_Light_002.fits')
+# calibrate_fits("single",'null','/home/david/Desktop/20180902/T19Sorted/1/Image_Light_002.fits')

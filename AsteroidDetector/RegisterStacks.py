@@ -1,5 +1,6 @@
- 
-
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 """
 Image registration module.
 """
@@ -8,8 +9,8 @@ import os
 import glob
 import subprocess
 import shlex
-from CalibrateFits import calibrate_fits
-from AstToolBox import natural_sort
+from AsteroidDetector.CalibrateFits import calibrate_fits
+from AsteroidDetector.AstToolBox import natural_sort
 
 def register_stacks(dir, subBack):
 
@@ -85,5 +86,5 @@ def register_stacks(dir, subBack):
     print("\nDone registering image stacks, now search for asteroids.\n")
     return "\nDone registering stacks, now search for asteroids.\n"
 
-#dir = "/home/ arcot/Desktop/C4-7"
+#dir = "/home/david/Desktop/C4-7"
 #register_stacks(dir, True)

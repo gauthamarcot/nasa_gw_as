@@ -1,12 +1,13 @@
- 
-
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 """
 Module built wiht numpy for extracting non moving objects from the images extracted from the .db files to
 find suspected transients.
 """
 
 import numpy as np
-from AstToolBox import sec2deg
+from AsteroidDetector.AstToolBox import sec2deg
 
 """
 Subtract non moving objects from the database files and return transient objects to ReadDB.py

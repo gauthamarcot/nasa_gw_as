@@ -1,5 +1,6 @@
- 
-
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 """
 Module to extract the sources from the PP .db files, and subtract the stars using Numpy and
 reference image built from the star lim mag feature after subtracting image 1 from 2, and 2 from 1.
@@ -9,10 +10,10 @@ import sqlite3
 from sqlite3 import Error
 import glob
 import math
-from StarSubtract import findstars
+from AsteroidDetector.StarSubtract import findstars
 import pickle
 from decimal import *
-from AstToolBox import deg2sec
+from AsteroidDetector.AstToolBox import deg2sec
 
 def parse_db(dir, limmag, star_search_radius, fwhm_min, ast_search_rad, star_lim_mag):
 
@@ -157,4 +158,4 @@ def parse_db(dir, limmag, star_search_radius, fwhm_min, ast_search_rad, star_lim
     return message
 
 #parse_db(dir, limmag, star_search_radius, fwhm_min, ast_search_rad, star_lim_mag):
-#parse_db("/home/ arcot/Desktop/20180609/T12Sorted/", 20.5, 2, 1.5, 20, 21)
+#parse_db("/home/david/Desktop/20180609/T12Sorted/", 20.5, 2, 1.5, 20, 21)

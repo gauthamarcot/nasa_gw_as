@@ -1,19 +1,19 @@
- 
-
 """Main GUI for application"""
-
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 
 from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
-from .StackImgs import stack_images
-from .RegisterStacks import register_stacks
-from .ReadDB import parse_db
-from .FindAsteroids import find_asteroids
-from .DS9 import launch_ds9
-from .TransientsShow import display_transients
-from .SkycovReport import generageCovReport
-from .ShowExtractedStars import display_stars
+from AsteroidDetector.StackImgs import stack_images
+from AsteroidDetector.RegisterStacks import register_stacks
+from AsteroidDetector.ReadDB import parse_db
+from AsteroidDetector.FindAsteroids import find_asteroids
+from AsteroidDetector.DS9 import launch_ds9
+from AsteroidDetector.TransientsShow import display_transients
+from AsteroidDetector.SkycovReport import generageCovReport
+from AsteroidDetector.ShowExtractedStars import display_stars
 import glob, os
 
 class Application(Frame):
@@ -214,7 +214,7 @@ class Application(Frame):
 
         ABOUT_TEXT = """About
         ASTEROID DETECTOR V1.0
-        Program 2018  arcot Rankin
+        Program 2018 David Rankin
         """
         toplevel = Toplevel()
         toplevel.resizable(width=FALSE, height=FALSE)
@@ -246,8 +246,9 @@ class Application(Frame):
     ############ PROCESS INDIVIDUAL IMAGES ###################
     def stack_images(self):
 
-        fitsfn = glob.glob(self.working_dir +"/1/*.fits")
-        fitsfn = fitsfn[0].split("/")[-1]
+        fitsfn = glob.glob(self.working_dir +"/*.fits")
+        print(fitsfn)
+        fitsfn = fitsfn[0].split("/")[1]
         fitsfn = fitsfn.split("_")
         fitsfn = fitsfn[0]+"_"
         print(fitsfn)
@@ -265,7 +266,7 @@ class Application(Frame):
             self.fSingleMode = False
 
         message = stack_images(self.working_dir, self.subSingleV, self.fSingleMode, fitsfn)
-        if message is not None:
+        if (message != None):
 
             if (message == "Error, images failed to register."):
                 return
@@ -330,7 +331,7 @@ class Application(Frame):
 
     def launch_ds9(self):
         #TESTING
-        #self.working_dir = "/home/ arcot/Desktop/20180930/T17Sorted"
+        self.working_dir = "/usr/local/bin/ds9"
 
         if self.forceOverwrite.get() == 1:
             self.forceOverwriteV = True
@@ -408,7 +409,7 @@ class Application(Frame):
 
 root = Tk()
 root.title("ASTEROID DETECTOR")
-root.geometry("450x230")
+root.geometry("670x450")
 app = Application(root)
 root.resizable(width=FALSE, height=FALSE)
 root.protocol("WM_DELETE_WINDOW", app.on_closing)

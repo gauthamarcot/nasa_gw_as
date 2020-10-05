@@ -1,5 +1,7 @@
- 
 
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 """
 Asteroid extraction from DB files.
 This module uses time based vectors to predict the 3rd and 4th hit after two objects are extracted
@@ -9,7 +11,7 @@ it up.
 
 import pickle
 import os
-from AstToolBox import solve_residuals, sec2deg
+from AsteroidDetector.AstToolBox import solve_residuals, sec2deg
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -282,4 +284,4 @@ def find_asteroids(dir, star_search_rad, fwhm_min, ast_search_rad, astmatch, req
     return astmatch
 
 #MODULE TESTING PURPOSES UNCOMMENT
-#find_asteroids("/home/ arcot/Desktop/EXAMP/C10", 2.2, 1.7, 30, 0, True)
+#find_asteroids("/home/david/Desktop/EXAMP/C10", 2.2, 1.7, 30, 0, True)

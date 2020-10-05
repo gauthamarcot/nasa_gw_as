@@ -1,12 +1,12 @@
 ### Asteroid Detector Settings ###
-Observatory Code: YOUR MPC CODE
-Name: nivedita
-Observer: m. nivedita
-Measurer: m. nivedita
+Observatory Code: V03
+Name: David Rankin
+Observer: D. Rankin
+Measurer: D. Rankin
 Telescope: .30-m F4 Reflector + CCD
-Email: admin@conceptivescom
-Initials(2): NM
-PP Path: /home/nivedita/photometrypipeline/
+Email: David@rankinstudio.com
+Initials(2): DR
+PP Path: /home/arcot/photometrypipeline/
 Begin Exposure Key: DATE-OBS
 Exposure Time Key: EXPTIME
 
@@ -14,11 +14,11 @@ Exposure Time Key: EXPTIME
 Default FWHM Minimum: 1.5
 Default Asteroid Search Radius: 30
 Default Star Search Radius: 3
-Default Limiting Mag: 20.5
+Default Limiting Mag: 19.7
 Max Resid: 0.45
 Slop Factor: 4
 Star Lim Mag: 21
-Default File Open Dir: /home/nivedita/Desktop
+Default File Open Dir: /home/arcot/
 
 ### DS9 Settings ###
 DS9 Text Color: green
